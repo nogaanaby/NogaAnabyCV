@@ -1,0 +1,67 @@
+
+.page1{
+  width: 100%;
+}
+
+.opening-text{
+  max-width: 70%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: row;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+}
+
+.mainTitle{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3em;
+}
+
+.arrayTitles{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.5em;
+}
+
+.static-paragraph{
+  text-align: center;
+  margin: 15% 10%;
+}
+
+.noga{
+  font-size: 2.5em;
+  line-height: 0;
+}
+
+.noga-subtitle{
+  font-size: 1em;
+}
+
+.noga-description{
+  font-size: 0.5em;
+  text-align: left;
+  width: 50%;
+  margin: 1em auto;
+}
+
+  /*********** desktop  **********/
+  @media only screen and (min-width: 400px) {
+    .opening-text{
+      margin: 15% auto;
+    }
+
+    .london{
+      width: 70vw;
+    }
+  }
+
+/*********** mobile  **********/
+  @media only screen and (max-width: 400px) {
+    .opening-text{
+      margin: 50% auto;
+    }
+
+    .london{
+      width: 87vw;
+    }
+  }

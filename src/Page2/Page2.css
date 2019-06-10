@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Josefin+Sans|Satisfy&display=swap');
+
+.page2{
+  margin: 1.5em 10%;
+  display: flex;
+  align-items: center;
+}
+
+.paragraph{
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 80%;
+}
+
+.paragraph-title{
+  font-size: 0.7em;
+  line-height: 1em;
+  margin-top: 25px;
+}
+
+.paragraph-date{
+  color: gray;
+  font-style: italic;
+  font-size: 0.5em;
+  line-height: 0;
+}
+
+.paragraph-description{
+  font-size: 0.6em;
+  line-height: 1em;
+}
+
+.main-titles{
+  font-size: 1em;
+  line-height: 1em;
+  text-align: left;
+}
+
+.brake{
+  height: 10px;
+}
