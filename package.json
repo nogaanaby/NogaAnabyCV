@@ -2,6 +2,7 @@
   "name": "noga-anaby-cv",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nogaanaby.github.io/NogaAnabyCV/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
     "react": "^16.8.6",

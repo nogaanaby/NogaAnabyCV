@@ -10,7 +10,7 @@
   color: black;
   /* background-size: cover;
   background-image:url("./assets/sunset-switzerland.png"); */
-  background-color: #ffefcc;
+  background-color: #E0EBE8;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -26,15 +26,13 @@
   align-items: center;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
 }
 
 .App-link {
   color: #61dafb;
-}
-
-.london{
-  position: absolute;
-  bottom: 0;
 }
 
 @keyframes App-logo-spin {
@@ -51,8 +49,8 @@
 }
 
 @keyframes blink {
-  0%   {color:#EEF0EF; }
-  49%   {color:#EEF0EF; }
+  0%   {color:#E0EBE8; }
+  49%   {color:#E0EBE8; }
   50%  {color:black; }
   100%  {color:black; }
   }
@@ -96,16 +94,46 @@
     position: absolute;
   }
 
+  .windmill-container{
+    position: absolute;
+    bottom: 0;
+  }
+  .windmill-vector{
+    bottom: 0;
+    position: absolute;
+    z-index: 0;
+  }
+  .windmill-spin{
+    position: absolute;
+    z-index: 1;
+    animation: App-logo-spin infinite 20s linear;
+  }
   /*********** desktop  **********/
-  @media only screen and (min-width: 400px) {
-    .london{
-      width: 70vw;
+  @media only screen and (min-width: 800px) {
+    .App-header{
+      background-image: url('./assets/switzerland-with-the-sun-low.png');
+    }
+    .windmill-vector{
+      max-width: 100px;
+      left: 77px;
+    }
+    .windmill-spin{
+      max-width: 250px;
+      bottom: 54px;
     }
   }
 
 /*********** mobile  **********/
-  @media only screen and (max-width: 400px) {
-    .london{
-      width: 87vw;
+  @media only screen and (max-width: 800px) {
+    .App-header{
+      background-image: url('./assets/switzerland-mobile.png');
+    }
+    .windmill-vector{
+      max-width: 50px;
+      left: 39px;
+    }
+    .windmill-spin{
+      max-width: 125px;
+      bottom: 30px;
     }
   }

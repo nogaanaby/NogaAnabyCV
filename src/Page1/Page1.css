@@ -25,7 +25,6 @@
 
 .static-paragraph{
   text-align: center;
-  margin: 15% 10%;
 }
 
 .noga{
@@ -45,23 +44,23 @@
 }
 
   /*********** desktop  **********/
-  @media only screen and (min-width: 400px) {
+  @media only screen and (min-width: 800px) {
     .opening-text{
       margin: 15% auto;
     }
 
-    .london{
-      width: 70vw;
+    .static-paragraph{
+      margin: 13% 10%;
     }
   }
 
 /*********** mobile  **********/
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 800px) {
     .opening-text{
       margin: 50% auto;
     }
 
-    .london{
-      width: 87vw;
+    .static-paragraph{
+      margin: 56% 10%;
     }
   }

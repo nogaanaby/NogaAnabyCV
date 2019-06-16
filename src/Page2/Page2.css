@@ -2,14 +2,12 @@
 
 .page2{
   margin: 1.5em 10%;
-  display: flex;
   align-items: center;
 }
 
 .paragraph{
-  text-align: left;
+  text-align: justify;
   font-family: 'Josefin Sans', sans-serif;
-  width: 80%;
 }
 
 .paragraph-title{
@@ -33,9 +31,26 @@
 .main-titles{
   font-size: 1em;
   line-height: 1em;
-  text-align: left;
+  text-align: justify;
 }
 
 .brake{
   height: 10px;
 }
+
+
+  /*********** desktop  **********/
+  @media only screen and (min-width: 700px) {
+    .page2{
+      display: flex;
+    }
+
+    .paragraph{
+      width: 80%;
+    }
+  }
+
+/*********** mobile  **********/
+  @media only screen and (max-width: 700px) {
+  
+  }
