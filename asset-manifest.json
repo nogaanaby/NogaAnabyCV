@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NogaAnabyCV/static/css/main.e8e827d6.chunk.css",
+    "main.js": "/NogaAnabyCV/static/js/main.8ef326d9.chunk.js",
+    "main.js.map": "/NogaAnabyCV/static/js/main.8ef326d9.chunk.js.map",
+    "runtime~main.js": "/NogaAnabyCV/static/js/runtime~main.b741527f.js",
+    "runtime~main.js.map": "/NogaAnabyCV/static/js/runtime~main.b741527f.js.map",
+    "static/css/2.6ae70308.chunk.css": "/NogaAnabyCV/static/css/2.6ae70308.chunk.css",
+    "static/js/2.b7a1c54f.chunk.js": "/NogaAnabyCV/static/js/2.b7a1c54f.chunk.js",
+    "static/js/2.b7a1c54f.chunk.js.map": "/NogaAnabyCV/static/js/2.b7a1c54f.chunk.js.map",
+    "index.html": "/NogaAnabyCV/index.html",
+    "precache-manifest.03649b008722b4284acb07481ce4df64.js": "/NogaAnabyCV/precache-manifest.03649b008722b4284acb07481ce4df64.js",
+    "service-worker.js": "/NogaAnabyCV/service-worker.js",
+    "static/css/2.6ae70308.chunk.css.map": "/NogaAnabyCV/static/css/2.6ae70308.chunk.css.map",
+    "static/css/main.e8e827d6.chunk.css.map": "/NogaAnabyCV/static/css/main.e8e827d6.chunk.css.map",
+    "static/media/all.css": "/NogaAnabyCV/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/switzerland-mobile.png": "/NogaAnabyCV/static/media/switzerland-mobile.aa8f0bdd.png",
+    "static/media/switzerland-no-sun.png": "/NogaAnabyCV/static/media/switzerland-no-sun.0addcb47.png",
+    "static/media/App.css": "/NogaAnabyCV/static/media/switzerland-with-the-sun-low.746f8dee.png",
+    "static/media/windmill-spiner.png": "/NogaAnabyCV/static/media/windmill-spiner.b914d7ab.png",
+    "static/media/windmill.png": "/NogaAnabyCV/static/media/windmill.7a331bd0.png"
+  }
+}
